@@ -84,3 +84,27 @@ footer {
   padding: 1rem;
   font-size: 0.9rem;
 }
+.cta-button {
+  background-color: #0a66c2;
+  color: white;
+  padding: 12px 24px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  margin-top: 20px;
+  font-size: 1em;
+}
+
+.cta-button:hover {
+  background-color: #004b9c;
+}
+
+.testimonials {
+  background: #f0f0f0;
+  padding: 30px;
+  text-align: center;
+}
+
+.testimonials h2 {
+  margin-bottom: 10px;
+}
