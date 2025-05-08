@@ -2,195 +2,199 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Qubit SIM Saver</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Qubit Telecom | Next-Gen eSIM Network</title>
   <style>
-    * {
-      box-sizing: border-box;
-      margin: 0;
-      padding: 0;
-    }
     body {
-      font-family: 'Segoe UI', sans-serif;
-      background-color: #f9fafb;
-      color: #333;
-      line-height: 1.6;
+      font-family: Arial, sans-serif;
+      margin: 0; padding: 0;
+      background-color: #f4f4f4;
     }
     header {
-      background-color: #1e40af;
-      color: white;
-      padding: 60px 20px;
+      background: #000;
+      color: #fff;
+      padding: 1rem 2rem;
       text-align: center;
     }
-    header h1 {
-      font-size: 2.5rem;
-      margin-bottom: 10px;
+    nav {
+      display: flex;
+      justify-content: center;
+      gap: 2rem;
+      margin-top: 0.5rem;
     }
-    header p {
-      font-size: 1.2rem;
-    }
-    .btn {
-      display: inline-block;
-      background-color: #10b981;
-      color: white;
-      padding: 12px 24px;
-      margin-top: 20px;
+    nav a {
+      color: #fff;
       text-decoration: none;
-      border-radius: 8px;
       font-weight: bold;
     }
-    .btn:hover {
-      background-color: #059669;
-    }
     section {
-      max-width: 900px;
-      margin: 40px auto;
-      padding: 0 20px;
+      padding: 2rem;
     }
-    section h2 {
-      font-size: 1.8rem;
-      color: #1e40af;
-      margin-bottom: 20px;
-    }
-    ol li, ul li {
-      margin-bottom: 10px;
-      font-size: 1.1rem;
-    }
-    img {
-      width: 100%;
-      max-height: 300px;
-      object-fit: cover;
-      border-radius: 10px;
-      margin: 20px 0;
-    }
-    blockquote {
-      background-color: #e0f2fe;
-      padding: 15px 20px;
-      border-left: 5px solid #0284c7;
-      margin: 20px 0;
-      font-style: italic;
-    }
-    table {
-      width: 100%;
-      border-collapse: collapse;
-      margin-top: 15px;
-    }
-    th, td {
-      border: 1px solid #ccc;
-      padding: 12px;
-      text-align: center;
-    }
-    details {
-      background: #f1f5f9;
-      padding: 10px;
-      border: 1px solid #cbd5e1;
-      border-radius: 5px;
-      margin-bottom: 10px;
-    }
-    footer {
-      background: #1e293b;
+    .hero {
+      background: url('images/hero-bg.jpg') no-repeat center center/cover;
       color: white;
       text-align: center;
-      padding: 20px;
-      margin-top: 40px;
+      padding: 5rem 2rem;
     }
-    @media (max-width: 600px) {
-      header h1 {
-        font-size: 1.8rem;
-      }
-      section h2 {
-        font-size: 1.5rem;
-      }
+    .hero h1 {
+      font-size: 3rem;
+    }
+    .feature, .pricing, .roadmap, .partners, .team, .footer, .privacy {
+      background: #fff;
+      margin-bottom: 1rem;
+      border-radius: 8px;
+      padding: 2rem;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    }
+    .feature-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+      gap: 1rem;
+    }
+    .feature-card {
+      padding: 1rem;
+      background: #e9ecef;
+      border-radius: 6px;
+    }
+    .qr {
+      text-align: center;
+      padding: 2rem;
+    }
+    .qr img {
+      width: 200px;
+    }
+    .ai-bot {
+      background: #121212;
+      color: #fff;
+      text-align: center;
+      padding: 2rem;
+    }
+    .ai-bot button {
+      padding: 0.8rem 1.5rem;
+      font-size: 1rem;
+      border: none;
+      background: #00c851;
+      color: #fff;
+      cursor: pointer;
+    }
+    .team img, .partners img {
+      width: 100px;
+      border-radius: 50%;
+    }
+    .footer {
+      text-align: center;
+      background: #000;
+      color: #fff;
+    }
+    footer a {
+      color: #ccc;
+      text-decoration: none;
+    }
+    img.responsive {
+      width: 100%;
+      height: auto;
+      border-radius: 8px;
     }
   </style>
 </head>
 <body>
 
-<header>
-  <h1>Say Goodbye to Expensive Data Plans</h1>
-  <p><strong>Qubit SIM Saver</strong> offers you 1GB for just ₦100. Affordable. Fast. Seamless.</p>
-  <a href="#get-started" class="btn">Get Started</a>
-</header>
+  <header>
+    <h1>Qubit Telecom</h1>
+    <nav>
+      <a href="#features">Features</a>
+      <a href="#pricing">Pricing</a>
+      <a href="#roadmap">Roadmap</a>
+      <a href="#team">Team</a>
+      <a href="#footer">Contact</a>
+    </nav>
+  </header>
 
-<section>
-  <h2>How Qubit SIM Saver Works</h2>
-  <ol>
-    <li><strong>Activate:</strong> Install your Qubit eSIM by scanning a QR code.</li>
-    <li><strong>Switch:</strong> Select Qubit SIM Saver in your mobile network settings.</li>
-    <li><strong>Enjoy:</strong> Browse, stream, and download with 1GB for just ₦100.</li>
-  </ol>
-</section>
+  <section class="hero">
+    <h1>Next-Gen eSIM Network</h1>
+    <p>Affordable. Fast. Borderless. 100 Naira per GB.</p>
+    <img src="images/hero-phone.png" alt="Hero Phone" class="responsive">
+  </section>
 
-<section>
-  <h2>See How eSIM Works</h2>
-  <img src="images/esim-illustration.png" alt="eSIM Illustration" />
-  <img src="images/esim-working.jpg" alt="How eSIM Works" />
-  <img src="images/esim-technology.jpg" alt="eSIM Technology in Action" />
-</section>
+  <section id="features" class="feature">
+    <h2>Key Features</h2>
+    <div class="feature-grid">
+      <div class="feature-card">eSIM / iSIM Compatibility</div>
+      <div class="feature-card">AI Network Optimization</div>
+      <div class="feature-card">Blockchain Billing (Coming Soon)</div>
+      <div class="feature-card">Cloud-Based ISP</div>
+      <div class="feature-card">Affordable Data Rates</div>
+      <div class="feature-card">Fast Signup with QR Activation</div>
+      <div class="feature-card">API Access for Resellers</div>
+      <div class="feature-card">Pay with USSD, Bank, Wallet</div>
+    </div>
+  </section>
 
-<section>
-  <h2>What Users Are Saying</h2>
-  <blockquote>"Qubit SIM Saver is a game-changer! Reliable and dirt cheap!" – A. Johnson</blockquote>
-  <blockquote>"I never imagined 1GB could cost just ₦100. Amazing product!" – S. Adewale</blockquote>
-</section>
+  <section class="qr">
+    <h2>Instant eSIM Activation</h2>
+    <p>Scan this QR code after signup to activate your fake eSIM profile (demo only):</p>
+    <img src="images/fake-esim-qr.png" alt="eSIM QR Code">
+  </section>
 
-<section>
-  <h2 id="get-started">Start Saving on Data</h2>
-  <p>Join thousands of Nigerians enjoying cheap internet with Qubit SIM Saver.</p>
-  <a href="https://docs.google.com/forms/d/e/1FAIpQLSf8qUM-4-WJIjUee7fkRkkwH5mMFW7C_0MseTCUdWUh4FMeXQ/viewform" class="btn">Sign Up Now</a>
-</section>
+  <section id="pricing" class="pricing">
+    <h2>Pricing Plans</h2>
+    <ul>
+      <li><strong>Basic:</strong> 100 Naira / 1GB</li>
+      <li><strong>Standard:</strong> 250 Naira / 3GB</li>
+      <li><strong>Reseller API:</strong> ₦2,000/month</li>
+    </ul>
+    <img src="images/pricing-preview.jpg" alt="Pricing Preview" class="responsive">
+    <p>Badges: <img src="images/flutterwave.png" alt="Flutterwave" width="80"> <img src="images/visa.png" alt="Visa" width="80"></p>
+  </section>
 
-<section>
-  <h2>Meet the Founder</h2>
-  <p>Hi, I'm <strong>Livinus</strong>, a bold innovator from Nigeria building the future of affordable telecom. Qubit is on a mission to make fast internet accessible to all Nigerians – starting with eSIM.</p>
-</section>
+  <section class="ai-bot">
+    <h2>Need Help?</h2>
+    <p>Chat with our AI Bot (Coming Soon)</p>
+    <button onclick="alert('AI Chat not available yet. This is a demo.')">Chat with Bot</button>
+  </section>
 
-<section>
-  <h2>Compare Prices</h2>
-  <table>
-    <tr>
-      <th>Provider</th>
-      <th>Data</th>
-      <th>Price</th>
-    </tr>
-    <tr>
-      <td><strong>Qubit SIM Saver</strong></td>
-      <td>1GB</td>
-      <td>₦100</td>
-    </tr>
-    <tr>
-      <td>Other Networks</td>
-      <td>1GB</td>
-      <td>₦500 - ₦1000</td>
-    </tr>
-  </table>
-</section>
+  <section id="roadmap" class="roadmap">
+    <h2>Roadmap</h2>
+    <ul>
+      <li>Q2 2025: MVP Launch</li>
+      <li>Q3 2025: AI-Powered Optimization</li>
+      <li>Q4 2025: Blockchain Billing + eSIM Hosting</li>
+      <li>2026: Full Cloud ISP Rollout in Nigeria</li>
+    </ul>
+    <img src="images/roadmap.jpg" alt="Roadmap Diagram" class="responsive">
+  </section>
 
-<section>
-  <h2>Frequently Asked Questions</h2>
-  <details>
-    <summary>What is an eSIM?</summary>
-    <p>An eSIM is a digital SIM card built into your phone. It lets you activate a cellular plan without inserting a physical SIM card.</p>
-  </details>
-  <details>
-    <summary>Is my phone compatible?</summary>
-    <p>Most recent Android and iPhones support eSIM. Check your settings or manufacturer's website.</p>
-  </details>
-  <details>
-    <summary>How do I install the eSIM?</summary>
-    <p>After sign-up, we send you a QR code. Simply scan it with your phone's camera and follow the setup instructions.</p>
-  </details>
-</section>
+  <section class="partners">
+    <h2>Our Fake Partners</h2>
+    <p>We are proudly "partnering" with:</p>
+    <img src="images/partner1.png" alt="Partner 1">
+    <img src="images/partner2.png" alt="Partner 2">
+    <img src="images/partner3.png" alt="Partner 3">
+  </section>
 
-<section>
-  <h2>Contact Us</h2>
-  <p>Got questions or want to partner with us?</p>
-  <a href="https://wa.me/2347039625148" class="btn">Chat with Us on WhatsApp</a>
-</section>
+  <section id="team" class="team">
+    <h2>Meet the Team</h2>
+    <div style="display: flex; gap: 2rem; justify-content: center;">
+      <div>
+        <img src="images/founder.jpg" alt="Founder">
+        <p>Livinus Uzoagulu - Founder</p>
+      </div>
+      <div>
+        <img src="images/dev.jpg" alt="Developer">
+        <p>Jane Doe - Lead Dev (Fake)</p>
+      </div>
+    </div>
+  </section>
 
-<footer>
-  <p>&copy; 2025 Qubit Telecom. Built for Nigeria’s future.</p>
-</footer>
+  <section class="privacy">
+    <h2>Privacy Policy & Terms</h2>
+    <p>This demo site is for MVP testing only. No real user data is collected. Terms of Use and Privacy Policy will be updated at full launch.</p>
+  </section>
+
+  <footer class="footer" id="footer">
+    <p>Qubit Telecom &copy; 2025. Built with bold innovation.</p>
+    <p><a href="#privacy">Privacy Policy</a> | <a href="#terms">Terms of Use</a></p>
+  </footer>
 
 </body>
 </html>
